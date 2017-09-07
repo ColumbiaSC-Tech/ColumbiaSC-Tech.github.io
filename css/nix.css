@@ -1,155 +1,156 @@
 * {
-	margin: 0;
+    margin: 0;
 }
 
 html {
-	height: 100%;
+    height: 100%;
 }
 
 body {
-	background-color: #fdfdfd;
-	height: 100%;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1.5em;
-	padding-top: 70px;
+    background-color: #fdfdfd;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    padding-top: 70px;
 }
 
 #green-terminal {
-	color: #00ff00;
+    color: #00ff00;
 }
 
 .font-header {
-	font-family: 'Inconsolata', monospace;
+    font-family: 'Inconsolata', monospace;
 }
 
 .font-paragraph {
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav {
-	font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Concert One', cursive;
+    font-family: 'Concert One', cursive;
 }
 
 #user-name {
-	font-size: 3em;
+    font-size: 3em;
 }
 
 .user-description {
-	border-style: solid;
-	border-width: 5px;
-	border-color: #292929;
-	margin: 1em auto;
-	line-height: 1.2em;
-	padding: 1em 1.5em .5em;
-	font-size: initial;
-	max-width: 26em;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #292929;
+    margin: 1em auto;
+    line-height: 1.2em;
+    padding: 1em 1.5em .5em;
+    font-size: initial;
+    max-width: 26em;
 }
 
 .user-description-wrap {
-	padding: 0 1em;
+    padding: 0 1em;
 }
 
 @media screen and (min-width: 700px) {
-	#user-name {
-		font-size: 5em;
-	}
+    #user-name {
+        font-size: 5em;
+    }
 }
 
 .user-profile {
-	padding: 0 1em;
+    padding: 0 1em;
 }
 
 .user-picture-wrap {
-	max-width: 25em;
-	padding: 0 1em;
+    max-width: 25em;
+    padding: 0 1em;
 }
 
 .user-picture {
-	border-style: solid;
-	border-width: 5px;
-	border-color: #292929;
-	margin-top: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #292929;
+    margin-top: 20px;
 }
 
 i {
-	margin: 10px 20px 10px 20px;
-	color: #333;
+    margin: 10px 20px 10px 20px;
+    color: #333;
 }
 
 .post-link {
-	float: left;
+    float: left;
 }
 
 .post-date {
-	float: right;
+    float: right;
 }
 
 .post-header {
-	background-color: #F5F5F5;
-	overflow: hidden;
-	padding: 0 5px 0 5px;
+    background-color: #F5F5F5;
+    overflow: hidden;
+    padding: 0 5px 0 5px;
 }
 
-.post-summary, .post-content{
-	clear: both;
+.post-summary,
+.post-content {
+    clear: both;
 }
 
 .post-summary {
-	padding: 0 5px 0 5px;
+    padding: 0 5px 0 5px;
 }
 
 .post-list-footer {
-	padding-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 #post-list {
-	list-style: none;
-	padding-left: 0;
+    list-style: none;
+    padding-left: 0;
 }
 
 .post-list-item {
-	margin-top: 20px;
-	border-style: solid;
-	border-width: 0 0 3px 0;
-	border-color: #292929;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-color: #292929;
 }
 
 .post-comments {
-	padding-top: 10px;
-	border-top-style: solid;
+    padding-top: 10px;
+    border-top-style: solid;
 }
 
 .wrapper {
-	min-height: 100%;
-	margin: 0 auto -50px;
+    min-height: 100%;
+    margin: 0 auto -50px;
 }
 
 .footer {
-	background-color: #F5F5F5;
-	display: block;
-	width: 100%;
-	padding: 10px;
-	height: 50px;
+    background-color: #F5F5F5;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    height: 50px;
 }
 
 .push {
-	height: 50px;
+    height: 50px;
 }
 
-.col-centered{
-	float: none;
-	margin: 0 auto;
+.col-centered {
+    float: none;
+    margin: 0 auto;
 }
 
 div p {
-	text-align: justify;
+    text-align: justify;
 }
 
 td {
-	margin: 0 20px 0 20px;
+    margin: 0 20px 0 20px;
 }
